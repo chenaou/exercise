@@ -26,6 +26,7 @@ class Number:
         if self.left==0:
             return f'{self.up}/{self.down}'
         return f'{self.left}\'{self.up}/{self.down}'
+    #化为假分数，用于简化计算
     def to_fake(self)->None:
         self.up+=(self.left*self.down)
         self.left=0
