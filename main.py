@@ -43,6 +43,7 @@ def main(argv:list[str]):
             graw.write(f'Wrong:{len(wli)} {str(wli)}\n')
         print(f'Correct:{len(rli)} {str(rli)}')
         print(f'Wrong:{len(wli)} {str(wli)}')
+#检查是否合理
 def is_rational(resu:Number)->bool:
     global max_value
     first=resu.isFu==False
